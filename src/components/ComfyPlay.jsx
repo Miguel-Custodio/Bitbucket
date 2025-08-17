@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import { PartyPopper, Calendar, Users, MapPin, ArrowRight, Star, Ruler, Clock, DollarSign } from 'lucide-react'
+import { Calendar, Users, MapPin, ArrowRight, Star, Ruler, Clock, DollarSign } from 'lucide-react'
 import { Button } from '@/components/ui/button'
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card'
 import { Badge } from '@/components/ui/badge'
@@ -151,7 +151,7 @@ Thank you!`
         {/* Header */}
         <div className="text-center mb-16">
           <div className="flex items-center justify-center space-x-3 mb-6">
-            <PartyPopper className="h-12 w-12 text-purple-600" />
+            <img src="/comfyplay_logo.webp" alt="ComfyPlay Logo" className="h-12 w-auto" />
             <h2 className="text-4xl lg:text-5xl font-bold text-gray-900">
               ComfyPlay
             </h2>

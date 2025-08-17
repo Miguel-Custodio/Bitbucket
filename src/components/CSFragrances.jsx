@@ -1,4 +1,4 @@
-import { Flower2, Store, Users, TrendingUp, ArrowRight } from 'lucide-react'
+import { Store, Users, TrendingUp, ArrowRight } from 'lucide-react'
 import { Button } from '@/components/ui/button'
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card'
 
@@ -36,7 +36,7 @@ const CSFragrances = () => {
         {/* Header */}
         <div className="text-center mb-16">
           <div className="flex items-center justify-center space-x-3 mb-6">
-            <Flower2 className="h-12 w-12 text-pink-600" />
+            <img src="/csfragrances_logo.webp" alt="CS Fragrances Logo" className="h-12 w-auto" />
             <h2 className="text-4xl lg:text-5xl font-bold text-gray-900">
               CS Fragrances
             </h2>

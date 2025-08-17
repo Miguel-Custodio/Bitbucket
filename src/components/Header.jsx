@@ -23,10 +23,7 @@ const Header = () => {
         <div className="flex items-center justify-between">
           {/* Logo */}
           <div className="flex items-center space-x-2 cursor-pointer" onClick={() => scrollToSection('home')}>
-            {/* Canadian Maple Leaf SVG */}
-            <svg className="h-8 w-8 text-white" viewBox="0 0 24 24" fill="currentColor">
-              <path d="M12 2L10.5 8.5L7 6L8.5 10L4 9.5L7.5 12L4 14.5L8.5 14L7 18L10.5 15.5L12 22L13.5 15.5L17 18L15.5 14L20 14.5L16.5 12L20 9.5L15.5 10L17 6L13.5 8.5L12 2Z"/>
-            </svg>
+            <img src="/comfygroup_logo.webp" alt="ComfyGroup Logo" className="h-8 w-auto" />
             <span className="text-2xl font-bold">ComfyGroup</span>
           </div>
 

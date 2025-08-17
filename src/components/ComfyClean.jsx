@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import { Sparkles, Home, Building, Calendar, CheckCircle, ArrowRight, Star } from 'lucide-react'
+import { Home, Building, Calendar, CheckCircle, ArrowRight, Star } from 'lucide-react'
 import { Button } from '@/components/ui/button'
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card'
 import { Input } from '@/components/ui/input'
@@ -91,7 +91,7 @@ Thank you!`
         {/* Header */}
         <div className="text-center mb-16">
           <div className="flex items-center justify-center space-x-3 mb-6">
-            <Sparkles className="h-12 w-12 text-blue-600" />
+            <img src="/comfyclean_logo.webp" alt="ComfyClean Logo" className="h-12 w-auto" />
             <h2 className="text-4xl lg:text-5xl font-bold text-gray-900">
               ComfyClean
             </h2>

@@ -15,7 +15,7 @@ const Hero = () => {
           {/* Content */}
           <div className="space-y-8">
             <div className="flex items-center space-x-3">
-              <Leaf className="h-12 w-12 text-white" />
+            <img src="/comfygroup_logo.webp" alt="ComfyGroup Logo" className="h-12 w-auto" />
               <h1 className="text-5xl lg:text-7xl font-bold">
                 ComfyGroup
                 <sup className="text-2xl">®</sup>
