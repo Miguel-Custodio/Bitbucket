@@ -11,7 +11,7 @@ const Contact = () => {
     {
       icon: Mail,
       title: 'Email',
-      value: 'hello@comfygroup.ca',
+      value: 'info@comfygroup.ca',
       description: 'Send us an email anytime'
     },
     {

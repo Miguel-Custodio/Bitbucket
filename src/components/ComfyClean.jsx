@@ -64,9 +64,25 @@ const ComfyClean = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault()
-    // Handle form submission
-    console.log('Form submitted:', formData)
-    alert('Thank you! We will contact you soon with your quote.')
+    
+    const subject = 'Cleaning Service Quote Request'
+    const body = `Hi! I would like to request a quote for cleaning services.
+
+Details:
+- Name: ${formData.name}
+- Email: ${formData.email}
+- Phone: ${formData.phone}
+- Property Type: ${formData.propertyType}
+- Area: ${formData.area} sq ft
+- Frequency: ${formData.frequency}
+- Address: ${formData.address}
+- Special Requirements: ${formData.notes}
+
+Please provide pricing and availability information.
+
+Thank you!`
+    
+    window.location.href = `mailto:clean@comfygroup.ca?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`
   }
 
   return (
