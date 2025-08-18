@@ -109,7 +109,7 @@ const CSFragrances = () => {
             <div className="grid grid-cols-2 gap-4">
               {applications.map((application, index) => (
                 <div key={index} className="flex items-center space-x-2">
-                  <Flower2 className="h-4 w-4 text-pink-600" />
+                  <span className="text-pink-600 text-sm">🌸</span>
                   <span className="text-gray-700">{application}</span>
                 </div>
               ))}

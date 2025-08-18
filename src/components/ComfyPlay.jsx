@@ -184,7 +184,9 @@ Thank you!`
           {filteredInflatables.map((item) => (
             <Card key={item.id} className="overflow-hidden hover:shadow-xl transition-shadow duration-300">
               <div className="aspect-video bg-gradient-to-br from-purple-100 to-pink-100 flex items-center justify-center relative">
-                <PartyPopper className="h-16 w-16 text-purple-600" />
+                <div className="h-16 w-16 bg-purple-600 rounded-full flex items-center justify-center">
+                  <span className="text-white text-2xl">🎉</span>
+                </div>
                 {item.waterPlay && (
                   <Badge className="absolute top-2 right-2 bg-blue-500">
                     Water Play

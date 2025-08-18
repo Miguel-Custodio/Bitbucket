@@ -33,7 +33,7 @@ const ComfyClean = () => {
       features: ['Office cleaning', 'Retail spaces', 'Medical facilities', 'Industrial cleaning']
     },
     {
-      icon: Sparkles,
+      icon: CheckCircle,
       title: 'Specialized Services',
       description: 'Specialized cleaning for unique requirements',
       features: ['Carpet cleaning', 'Window cleaning', 'Pressure washing', 'Event cleanup']
