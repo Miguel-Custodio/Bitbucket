@@ -1,4 +1,4 @@
-import { Leaf, Mail, Phone, MapPin, Facebook, Instagram, Linkedin } from 'lucide-react'
+import { Mail, Phone, MapPin, Facebook, Instagram, Linkedin } from 'lucide-react'
 
 const Footer = () => {
   const currentYear = new Date().getFullYear()
@@ -23,8 +23,7 @@ const Footer = () => {
           {/* Company Info */}
           <div className="lg:col-span-2">
             <div className="flex items-center space-x-2 mb-6">
-              <Leaf className="h-8 w-8" />
-              <span className="text-2xl font-bold">ComfyGroup</span>
+              <img src="/comfygroup_logo_black.webp" alt="ComfyGroup" className="h-8 w-auto" />
             </div>
             <p className="text-gray-300 mb-6 max-w-md">
               ComfyGroup has transformed into a vibrant enterprise that embodies enthusiasm 
@@ -33,7 +32,7 @@ const Footer = () => {
             <div className="space-y-3">
               <div className="flex items-center space-x-3">
                 <Mail className="h-5 w-5 text-gray-400" />
-                <span className="text-gray-300">hello@comfygroup.ca</span>
+                <span className="text-gray-300">info@comfygroup.ca</span>
               </div>
               <div className="flex items-center space-x-3">
                 <Phone className="h-5 w-5 text-gray-400" />

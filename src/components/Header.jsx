@@ -23,8 +23,7 @@ const Header = () => {
         <div className="flex items-center justify-between">
           {/* Logo */}
           <div className="flex items-center space-x-2 cursor-pointer" onClick={() => scrollToSection('home')}>
-            <img src="/comfygroup_logo.webp" alt="ComfyGroup Logo" className="h-8 w-auto" />
-            <span className="text-2xl font-bold">ComfyGroup</span>
+            <img src="/comfygroup_logo_black.webp" alt="ComfyGroup" className="h-10 w-auto" />
           </div>
 
           {/* Desktop Navigation */}
@@ -32,6 +31,7 @@ const Header = () => {
             <button onClick={() => scrollToSection('home')} className="hover:text-gray-300 transition-colors">Home</button>
             <button onClick={() => scrollToSection('about')} className="hover:text-gray-300 transition-colors">About</button>
             <button onClick={() => scrollToSection('play')} className="hover:text-gray-300 transition-colors">ComfyPlay</button>
+            <button onClick={() => scrollToSection('photo-gallery')} className="hover:text-gray-300 transition-colors">Galeria</button>
             <button onClick={() => scrollToSection('clean')} className="hover:text-gray-300 transition-colors">ComfyClean</button>
             <button onClick={() => scrollToSection('fragrances')} className="hover:text-gray-300 transition-colors">CS Fragrances</button>
             <button onClick={() => scrollToSection('contact')} className="hover:text-gray-300 transition-colors">Contact</button>

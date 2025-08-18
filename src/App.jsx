@@ -3,6 +3,7 @@ import Header from './components/Header'
 import Hero from './components/Hero'
 import About from './components/About'
 import ComfyPlay from './components/ComfyPlay'
+import PhotoGallery from './components/PhotoGallery'
 import ComfyClean from './components/ComfyClean'
 import CSFragrances from './components/CSFragrances'
 import Contact from './components/Contact'
@@ -15,6 +16,7 @@ function App() {
       <Hero />
       <About />
       <ComfyPlay />
+      <PhotoGallery />
       <ComfyClean />
       <CSFragrances />
       <Contact />
